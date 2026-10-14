@@ -1,0 +1,22 @@
+# 의존성
+node_modules/
+
+# Wrangler 로컬 상태(로컬 D1 데이터 등)와 빌드 결과
+.wrangler/
+dist/
+
+# 비밀값: 절대 커밋하지 않는다 (wrangler secret 으로 관리)
+.dev.vars
+.dev.vars.*
+.env
+.env.*
+
+# 로그
+*.log
+npm-debug.log*
+
+# 운영체제/편집기
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
