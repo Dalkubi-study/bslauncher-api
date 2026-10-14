@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # bslauncher-api
 
 BSLauncher 서버 API (Cloudflare Workers + D1 + Hono + Zod). 현재 범위: **로그인, 세션, 서버 목록, 서버 접근 권한, 관리자 API(사용자/서버/권한), 감사 로그**.
@@ -54,3 +55,6 @@ npm run login-test
 - 마지막 관리자는 강등/삭제 불가, 강등 시 그 사용자의 세션은 즉시 폐기, 관리자 변경은 `audit_logs` 에 기록
 - 속도 제한은 코드에 넣지 않았습니다(D1 쓰기 절약). Cloudflare 대시보드의 Rate limiting 규칙으로 `/api/v1/auth/*` 에 적용하세요.
 - Cloudflare 계정 2FA 필수. Worker 로그에 토큰/본문을 남기지 않습니다.
+=======
+# bslauncher-api
+>>>>>>> 502b161d22c9335fdfb942079829b5cd4acc6579
